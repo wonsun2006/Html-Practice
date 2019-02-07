@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>[KWEB 준스 1주차] 2018320227_방원선</title>
+</head>
+<body>
+	<form method="POST" action="./login.php">
+		<table border="1" style="border-collapse:collapse">
+			<tr>
+				<th colspan="2">KWEB 회원가입</th>
+			</tr>
+			
+			<tr>
+			<td>이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td><input type="text" name="name"></td>
+			</tr>
+			
+			<tr>
+			<td>아이디</td>
+			<td><input type="text" name="id"></td>
+			</tr>
+
+			<tr>
+			<td>비밀번호</td>
+			<td><input type="text" name="pw"></td>
+			</tr>
+
+			<tr>
+			<td>비번확인</td>
+			<td><input type="text" name="checkpw"></td>
+			</tr>
+
+			<tr>
+			<td>이메일</td>
+			<td><input type="text" name="email"></td>
+			</tr>
+
+			<tr>
+				<td>회원자격</td>
+				<td>
+				<select>
+				<option value=:value"sub">준회원</option>
+				<option value=:value"real">정회원</option>
+				</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>성별</td>
+				<td>
+					<input type="radio" name="gender">남성<input type="radio" name="gender">여성
+				</td>
+			</tr>
+
+			<tr>
+				<td>취미</td>
+				<td>
+					<input type="checkbox">스포츠
+					<br>
+					<input type="checkbox">음악감상
+					<br>
+					<input type="checkbox">프로그래밍
+					<br>
+					<input type="checkbox">기타
+					<br>
+					<input type="text" name="else">
+				</td>
+			</tr>
+
+			<tr>
+				<td>하고싶은말</td>
+				<td>
+					<textarea cols="15" rows="2"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					
+					<a href="http://kweb.korea.ac.kr"><button type="button">제출하기</button></a>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
